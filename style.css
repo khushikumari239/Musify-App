@@ -1,0 +1,24 @@
+body {
+    /* background-color: black;
+    color: white; */
+
+    .logoclass {
+        /* Rendered size:	78 × 24 px;
+     Rendered aspect ratio:	13∶4; */
+        width: 78px;
+        /* The height will adjust automatically to maintain the aspect ratio */
+        /* Or */
+        height: 24px;
+        /* The width will adjust automatically to maintain the aspect ratio */
+        object-fit: contain;
+    }
+
+
+    .left {
+        width: 25vw;
+    }
+
+    .right {
+        width: 75vw;
+    }
+}
